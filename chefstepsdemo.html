@@ -1,0 +1,17 @@
+<head>
+  <title>Demo - Drew Tyler</title>
+</head>
+
+<body>
+  <h1>Chefsteps Demo for #5</h1>
+
+  {{> emails}}
+</body>
+
+<template name="emails">
+  <textarea id="inputEmails"></textarea>
+  <button>Submit</button>
+  <p>There are {{getUniqueEmailCounter}} unique emails in your input list.</p>
+  <ol id="outputEmails">
+  </ol>
+</template>
